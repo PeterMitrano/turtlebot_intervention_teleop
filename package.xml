@@ -1,0 +1,15 @@
+<package format="2">
+  <name>turtlebot_intervention_teleop</name>
+  <version>0.0.0</version>
+  <description>The turtlebot_intervention_teleop package</description>
+
+  <maintainer email="mitranopeter@gmail.com">Peter Mitrano</maintainer>
+
+  <license>WTFPL</license>
+
+
+  <depend>roscpp</depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
