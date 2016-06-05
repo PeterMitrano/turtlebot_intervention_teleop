@@ -1,10 +1,9 @@
 #include <termios.h>
 
 class TurtlebotInterventionTeleop {
-
-public:
+ public:
   TurtlebotInterventionTeleop(int argc, char **argv);
 
-private:
+ private:
   struct termios t;
 };
