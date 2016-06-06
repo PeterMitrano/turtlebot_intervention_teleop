@@ -5,5 +5,7 @@ class TurtlebotInterventionTeleop {
   TurtlebotInterventionTeleop(int argc, char **argv);
 
  private:
-  struct termios t;
+  struct termios oldt, newt;
+  int rotation_speed;
+  int move_speed;
 };
